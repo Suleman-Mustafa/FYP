@@ -1,0 +1,22 @@
+@use "@material/textfield";
+@include textfield.core-styles;
+
+.mainHeading {
+  color: black;
+  text-align: center;
+  justify-content: center;
+}
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+}
+.leftSide {
+  width: 30%;
+}
+.rightSide {
+  width: 70%;
+}
+.qualities {
+  border: 1px solid black;
+  background-color: darkcyan;
+}
